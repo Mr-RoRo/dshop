@@ -2,7 +2,7 @@ import { Stack, Typography } from "@mui/material";
 import SmartPhone from "../../assets/smartphone.png";
 const PopularCategory = () => {
   return (
-    <Stack flexDirection="row" mx="108px" my="48px" gap="24px">
+    <Stack flexDirection="row" gap="24px">
       {[1, 2, 3, 4, 5, 6].map((item) => (
         <Stack
           key={item}
@@ -14,6 +14,7 @@ const PopularCategory = () => {
             justifyContent: "center",
             gap: "8px",
             p: "8px 18px",
+            borderRadius: 2,
           }}
         >
           <Stack

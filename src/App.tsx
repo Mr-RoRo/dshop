@@ -8,7 +8,9 @@ function App() {
     <Stack>
       <NavBar />
       <Header />
-      <PopularCategory />
+      <Stack mt="48px" mb="56px" mx="108px" gap="48px" alignItems="center">
+        <PopularCategory />
+      </Stack>
     </Stack>
   );
 }
