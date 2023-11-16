@@ -57,6 +57,10 @@ const DiscountedProducts = () => {
                 bgcolor: "#fff",
                 borderRadius: 1,
                 position: "relative",
+                transition: "transform 0.35s",
+                ":hover":{
+                  transform:"scale(1.05)",
+                }
               }}
             >
               <Stack
