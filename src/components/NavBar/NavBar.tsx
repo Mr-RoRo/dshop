@@ -24,9 +24,9 @@ const NavBar = () => {
         <Typography variant="bodyLg">Contact Us</Typography>
       </Stack>
       <Stack gap="8px" flexDirection="row">
-        <CiSearch class="react-icons" />
-        <CiShoppingBasket class="react-icons" />
-        <CiUser class="react-icons" />
+        <CiSearch className="react-icons" />
+        <CiShoppingBasket className="react-icons" />
+        <CiUser className="react-icons" />
       </Stack>
     </Stack>
   );
