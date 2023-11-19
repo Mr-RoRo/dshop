@@ -220,6 +220,11 @@ const theme = createTheme({
           width: "16.40px",
           height: "16.40px",
         },
+        root: {
+          ":hover": {
+            backgroundColor: "transparent",
+          },
+        },
       },
     },
     MuiContainer: {
