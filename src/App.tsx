@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import PopularCategory from "./components/PopularCategory/PopularCategory";
 import DiscountedProducts from "./components/DiscountedProducts/DiscountedProducts";
 import ProductCardLanding from "./components/ProductCardLanding/ProductCardLanding";
+import TopBrands from "./components/TopBrands/TopBrands";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <PopularCategory />
         <DiscountedProducts />
         <ProductCardLanding />
+        <TopBrands />
       </Stack>
     </Stack>
   );
