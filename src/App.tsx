@@ -5,6 +5,7 @@ import PopularCategory from "./components/PopularCategory/PopularCategory";
 import DiscountedProducts from "./components/DiscountedProducts/DiscountedProducts";
 import ProductCardLanding from "./components/ProductCardLanding/ProductCardLanding";
 import TopBrands from "./components/TopBrands/TopBrands";
+import Banner from "./components/Banner/Banner";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <DiscountedProducts />
         <ProductCardLanding />
         <TopBrands />
+        <Banner />
       </Stack>
     </Stack>
   );
