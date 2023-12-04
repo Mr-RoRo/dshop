@@ -25,7 +25,7 @@ const ProductCardLanding = () => {
           <MdKeyboardArrowRight className="react-icons" />
         </IconButton>
       </Stack>
-      <Stack flexDirection="row" gap="24px">
+      <Stack flexDirection="row" justifyContent="space-between" gap="18px">
         {[1, 2, 3, 4].map((item) => (
           <Stack
             key={item}
