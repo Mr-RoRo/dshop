@@ -8,6 +8,7 @@ import TopBrands from "./components/TopBrands/TopBrands";
 import Banner from "./components/Banner/Banner";
 import LandingBlog from "./components/LandingBlog/LandingBlog";
 import OurServices from "./components/OurServices/OurServices";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
         <TopBrands />
         <Banner />
         <LandingBlog />
-        <OurServices />
       </Stack>
+      <OurServices />
+      <Footer />
     </Stack>
   );
 }
