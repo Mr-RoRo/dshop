@@ -11,7 +11,7 @@ const BlogCardRectangle = () => {
   const [savedItem, setSavedItem] = useState<number | null>(null);
   return (
     <Stack gap="15px">
-      {[1, 2, 3].map((item) => (
+      {[1, 2].map((item) => (
         <Stack
           flexDirection="row"
           width="704px"

@@ -9,8 +9,8 @@ const BlogCardSquare = () => {
   const [hoveredItem, setHoveredItem] = useState<number | null>(null);
   const [savedItem, setSavedItem] = useState<number | null>(null);
   return (
-    <Stack width="100%" flexDirection="row" justifyContent="space-between">
-      {[1, 2, 3].map((item) => (
+    <Stack flexDirection="row" justifyContent="space-between">
+      {[1].map((item) => (
         <Stack
           key={item}
           borderRadius={1.5}

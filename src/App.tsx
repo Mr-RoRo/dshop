@@ -6,6 +6,7 @@ import DiscountedProducts from "./components/DiscountedProducts/DiscountedProduc
 import ProductCardLanding from "./components/ProductCardLanding/ProductCardLanding";
 import TopBrands from "./components/TopBrands/TopBrands";
 import Banner from "./components/Banner/Banner";
+import LandingBlog from "./components/LandingBlog/LandingBlog";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <ProductCardLanding />
         <TopBrands />
         <Banner />
+        <LandingBlog />
       </Stack>
     </Stack>
   );
