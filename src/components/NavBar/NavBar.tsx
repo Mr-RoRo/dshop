@@ -14,6 +14,10 @@ const NavBar = () => {
       alignItems="center"
       borderBottom="1px solid"
       borderColor="primary.50"
+      position="fixed"
+      width="100%"
+      bgcolor="#fff"
+      zIndex="100"
     >
       <Stack width="56px" height="63px" component="img" src={logo} />
       <Stack flexDirection="row" gap="48px">
