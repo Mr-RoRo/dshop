@@ -7,19 +7,21 @@ import ProductCardLanding from "./components/ProductCardLanding/ProductCardLandi
 import TopBrands from "./components/TopBrands/TopBrands";
 import Banner from "./components/Banner/Banner";
 import LandingBlog from "./components/LandingBlog/LandingBlog";
+import OurServices from "./components/OurServices/OurServices";
 
 function App() {
   return (
     <Stack>
       <NavBar />
-      <Header />
-      <Stack mt="48px" mb="56px" mx="108px" gap="48px" alignItems="center">
+      <Stack mt="100px" mb="56px" mx="108px" gap="48px" alignItems="center">
+        <Header />
         <PopularCategory />
         <DiscountedProducts />
         <ProductCardLanding />
         <TopBrands />
         <Banner />
         <LandingBlog />
+        <OurServices />
       </Stack>
     </Stack>
   );

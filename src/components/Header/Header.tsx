@@ -3,7 +3,7 @@ import header from "../../assets/header.png";
 
 const Header = () => {
   return (
-    <Stack px="108px" flexDirection="row" justifyContent="space-between">
+    <Stack width="100%" flexDirection="row" justifyContent="space-between">
       <Stack my="56px" justifyContent="space-between">
         <Stack gap="50px">
           <Typography variant="display1">DShop</Typography>
