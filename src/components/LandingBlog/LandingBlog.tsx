@@ -5,7 +5,7 @@ import BlogCardRectangle from "../BlogCardRectangle/BlogCardRectangle";
 
 const LandingBlog = () => {
   return (
-    <Stack width="100%" height="155px" gap="32px">
+    <Stack width="100%" gap="32px">
       <Stack
         height="64px"
         borderBottom="1px solid"
@@ -20,7 +20,7 @@ const LandingBlog = () => {
           <MdKeyboardArrowRight className="react-icons" />
         </IconButton>
       </Stack>
-      <Stack flexDirection="row" justifyContent="center" gap="24px" pb="56px">
+      <Stack flexDirection="row" justifyContent="center" gap="24px">
         <BlogCardSquare />
         <BlogCardRectangle />
       </Stack>
