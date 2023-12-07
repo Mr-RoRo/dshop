@@ -11,15 +11,15 @@ const info = [
     width: "40px",
     height: "33px",
   },
-  { id: 1, title: "Guarantee", icon: icon2, width: "40px", height: "43px" },
+  { id: 2, title: "Guarantee", icon: icon2, width: "40px", height: "43px" },
   {
-    id: 1,
+    id: 3,
     title: "Free Shipping over 1000$",
     icon: icon3,
     width: "62px",
     height: "30px",
   },
-  { id: 1, title: "24/7 Support", icon: icon4, width: "40px", height: "45px" },
+  { id: 4, title: "24/7 Support", icon: icon4, width: "40px", height: "45px" },
 ];
 const OurServices = () => {
   return (
@@ -27,6 +27,7 @@ const OurServices = () => {
       width="100%"
       justifyContent="space-between"
       gap="98.5"
+      px="108px"
       height="100px"
       alignItems="center"
       flexDirection="row"
